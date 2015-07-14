@@ -13,7 +13,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let scnView = self.view as SCNView
+        let scnView = self.view as! SCNView
         let scene = PrimitivesScene()
         scnView.scene = scene
         
